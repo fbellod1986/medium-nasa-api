@@ -7,7 +7,7 @@ import { environment } from '../../../environments/environment';
 })
 export class HomeService {
 
-  private apiKey = '2RYIA7T0trVt8XhgVHR0JVzdasIaLcpv32N0JRKd';
+  private apiKey = 'api_key';
   private api = environment.url + this.apiKey;
 
   constructor(private http: HttpClient) { }
